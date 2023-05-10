@@ -1,0 +1,32 @@
+#Header {
+    .container {
+        padding: 20px 120px;
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .search {
+                img {
+                    width: 100%
+                }
+            }
+            .center {
+                ul {
+                    display: flex;
+                    gap: 40px;
+                    align-items: center;
+                }
+
+                li {
+                    list-style: none;
+                    font-size: 14px;
+
+                    img {
+                        width: 90%;
+                    }
+                }
+
+            }
+        }
+    }
+}
