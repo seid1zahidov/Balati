@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/navbar/Navbar";
 import Home from "./views/Home/Home";
-import Secont from "./views/secont/Secont";
 import { routeArr } from "./routes";
 import Footer from "./components/layout/footer/Footer";
 import { useEffect } from "react";

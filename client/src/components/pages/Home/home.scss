@@ -1,0 +1,141 @@
+#Fermentasiya {
+    .container {
+        padding: 80px 120px;
+
+        .text {
+            p {
+                font-size: 16px;
+                margin-bottom: 20px;
+                font-weight: 100;
+
+            }
+
+            hr {
+                border: 1px solid rgba(226, 223, 218, 1);
+                margin-bottom: 28px;
+
+            }
+
+            span {
+                font-style: italic;
+
+                font-size: 57px;
+
+                b {
+                    color: rgba(210, 165, 76, 1);
+
+                }
+            }
+        }
+
+        .row {
+            display: flex;
+            gap: 31px;
+
+            .image {
+                margin-top: 60px;
+                width: 60%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .text-image {
+                width: 40%;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    margin-bottom: 16px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+#Type {
+    .container {
+        padding: 0px 234px 0px 234px;
+
+        .center {
+            text-align: center;
+            font-size: 104px;
+            position: relative;
+            z-index: 99999;
+            background: transparent;
+
+            .circle {
+                position: absolute;
+                right: 10px;
+                z-index: -99999999;
+                bottom: -219px;
+                background: transparent;
+
+                img {
+                    width: 30%;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                line-height: 106px;
+                color: rgba(53, 63, 57, 1);
+                background: transparent;
+            }
+        }
+
+        .row {
+            .all {
+                position: relative;
+
+                .text {
+                    padding: 96px 0px 40px 0px;
+                    width: 41%;
+
+                    p {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+
+                .bred {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .piza {
+                    right: -9.5rem;
+                    top: 489px;
+                    position: absolute;
+                    img {
+                        width: 90%;
+                    }
+                }
+                .organic{
+                    width: 47%;
+                    margin-top: 4rem ;
+                    p{font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+#Service{
+    .container{
+        padding: 0px 120px;
+        .row{
+            
+        }
+    }
+}
