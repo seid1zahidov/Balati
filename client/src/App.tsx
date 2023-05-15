@@ -17,6 +17,7 @@ function App() {
               <>
                 <Navbar />
                 <item.component />
+                <Footer />
               </>
             } />
           ))

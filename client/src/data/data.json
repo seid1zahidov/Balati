@@ -1,0 +1,62 @@
+{
+    "cardData": {
+        "card": [
+            {
+                "id": 1,
+                "picture": "/media/pesce.png",
+                "name": "Sadə balatı",
+                "money": 2,
+                "category": "ÇÖRƏKLƏR",
+                "details": "Qlisemik indeksi digər çörəkdən aşağıdır və şəkərin qana keçməsi sürəti aşağıdır. Bizi immitasiya edənlər, gərək əvvəlcə özlərini tapsınlar, sonra çörək bişirsinlər. Çünki, ustalıq resepti, metodikanı bilməklə bitmir. Ustalıq, insanın daxilindəki qorxuya, yalana, tamaha, təkəbbürə, ümidsizliyə, təmbəlliyə və çarəsizlik hissinə qalib gəlməsidir. Bu bir uzun, mənəvi və şəxsi prosesdir."
+            },
+            {
+                "id": 2,
+                "name": "Balqabaqlı balatı çörəyi",
+                "picture": "/media/moank.png",
+                "money": 3,
+                "category": "UN MEMULATLARI",
+                "details": "lorem impsum"
+            },
+            {
+                "id": 3,
+                "name": "Glütensiz balatı çörəyi",
+                "picture": "/media/sergio.png",
+                "money": 10,
+                "category": "ÇÖRƏKLƏR",
+                "details": "lorem impsum"
+            },
+            {
+                "id": 4,
+                "name": "Klassik balatı",
+                "picture": "/media/Screen3.png",
+                "money": 10,
+                "category": "UN MEMULATLARI",
+                "details": "lorem impsum"
+            },
+            {
+                "id": 5,
+                "name": "Yastıq çörəyi",
+                "picture": "/media/Screen2.png",
+                "money": 10,
+                "category": "ÇÖRƏKLƏR",
+                "details": "lorem impsum"
+            },
+            {
+                "id": 6,
+                "name": "Tam buğda",
+                "picture": "/media/Screen1.png",
+                "money": 10,
+                "category": "ÇÖRƏKLƏR",
+                "details": "lorem impsum"
+            },
+            {
+                "id": 7,
+                "name": "Tam buğda",
+                "picture": "/media/Screen4.png",
+                "money": 10,
+                "category": "ÇÖRƏKLƏR",
+                "details": "lorem impsum"
+            }
+        ]
+    }
+}

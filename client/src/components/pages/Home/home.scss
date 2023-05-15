@@ -132,10 +132,95 @@
 }
 
 #Service{
+    padding: 192px 0;
     .container{
         padding: 0px 120px;
+        .center{
+            font-size: 104px;
+            line-height: 106px;
+            font-weight: 500;
+            span{
+                color: rgba(53, 63, 57, 1);
+                b{
+                    color: rgba(210, 165, 76, 1);
+                }
+            }
+            margin-bottom: 106px;
+
+        }
         .row{
-            
+            display: flex;
+            .left{
+                width: 45%;
+                text-align: center;
+
+                img{
+                    width: 70%;
+                }
+            }
+            .right{
+                width: 55%;
+                margin-top: -6rem;
+                p{
+                    font-size: 16px;
+                line-height: 24px;
+                font-weight: 400;
+                }
+                img{
+                    width: 100%;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+}
+#Product{
+    .container{
+        padding: 0px 120px;
+        .center{
+            b{
+                font-size: 32px;
+                line-height: 22px;
+            }
+            hr{
+                margin-top: 20px;
+                margin-bottom: 46px;
+                border: 1px solid rgba(226, 223, 218, 1)
+            }
+            p{
+                width: 81%;
+                font-size: 32px;
+                line-height: 40px;
+                font-weight: 500;
+                color: rgba(53, 63, 57, 1);
+            }
+        }
+        .row{
+            display: flex;
+            gap: 42px;
+            .all{
+                margin-top: 5rem;
+                border: 1px solid rgba(53, 63, 57, 1);
+                padding: 12px;
+                p{
+                    margin-top: 1rem;
+                    color: rgba(53, 63, 57, 0.4);
+                    font-size: 17px;
+                    line-height: 22px;
+                    font-weight: 400;
+                }
+                span{
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 38px;
+                    color: rgba(53, 63, 57, 1);
+
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            margin-bottom: 10rem;
         }
     }
 }

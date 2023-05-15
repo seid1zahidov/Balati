@@ -1,16 +1,24 @@
 #Header {
     .container {
         padding: 20px 120px;
+
         .row {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             .search {
                 img {
                     width: 100%
                 }
             }
+
             .center {
+                .Mehsullar {
+                    text-decoration: none;
+                    color: black;
+                }
+
                 ul {
                     display: flex;
                     gap: 40px;
