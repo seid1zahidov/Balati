@@ -46,7 +46,7 @@ const Products = () => {
           <div className="galleryContainer">
             {
               datas.map((item: any) => <div style={{ width: "31%" }}>
-                <Link to={routes.SingleProduct.path}>
+                <Link to={`./${item.id}`}>
                   <div key={item.id} className="galleryItem">
                     <img src={item.picture} alt={item.picture} />
                     <div className="container">

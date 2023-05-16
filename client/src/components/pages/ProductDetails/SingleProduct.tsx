@@ -1,16 +1,21 @@
 import "./Products.scss"
-import {Link , useParams} from "react-router-dom"
+import { useParams } from "react-router-dom"
 import data from "../../../data/data.json"
 const SingleProduct = () => {
-  // const {productId} = useParams();
 
-  // const product = data.cardData.card.find((pro):any => pro.id && productId);
-  // const {name}: any = product
+
+  const productId: any = useParams();
+
+  const product = data.cardData.card.find(product => product.id == productId.id)
+
   return (
     <section id="ProductsDetails">
       <div className="container">
-          {/* {name} */}
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, culpa incidunt sapiente laboriosam, minus eaque perferendis ipsam, consequuntur commodi optio ducimus. Quo quas molestiae exercitationem sint vitae, voluptates numquam enim!
+        <h3>Name: {product?.name}</h3>
+        <h3>Details: {product?.details}</h3>
+        <h3>Price: {product?.money}</h3>
+        <h3>Category: {product?.category}</h3>
+        <img src={product?.picture} alt='someImage' />
       </div>
     </section>
   )

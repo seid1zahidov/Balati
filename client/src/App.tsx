@@ -1,28 +1,23 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/navbar/Navbar";
 import Home from "./views/Home/Home";
-import { routeArr } from "./routes";
 import Footer from "./components/layout/footer/Footer";
-import { useEffect } from "react";
-
+import Product from "./views/Product/Product";
+import SingleProduct from "./views/ProductsDetails/Index"
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
+        <Navbar />
         <Routes>
-          {routeArr.map((item, index) => (
-            <Route index path={item.path} key={index} element={
-              <>
-                <Navbar />
-                <item.component />
-                <Footer />
-              </>
-            } />
-          ))
-          }
+          <Route path='/' element={<Home />} />
+          <Route path='/product' element={<Product />} />
+          <Route path='/product/:id' element={<SingleProduct />} />
+
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
