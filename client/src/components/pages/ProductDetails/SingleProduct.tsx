@@ -11,11 +11,20 @@ const SingleProduct = () => {
   return (
     <section id="ProductsDetails">
       <div className="container">
-        <h3>Name: {product?.name}</h3>
-        <h3>Details: {product?.details}</h3>
-        <h3>Price: {product?.money}</h3>
-        <h3>Category: {product?.category}</h3>
-        <img src={product?.picture} alt='someImage' />
+        <div className="row">
+          <div className="left">
+            <ul>
+              <li className="category">{product?.category}</li>
+              <li className="name">{product?.name.toUpperCase()}</li>
+              <li className="details">{product?.details}</li>
+              {/* <li className="money">{product?.money}</li> */}
+            </ul>
+          </div>
+          <div className="right">
+          Məhsullara geri qayıt
+          <img src={product?.picture} alt={product?.picture} />
+          </div>
+        </div>
       </div>
     </section>
   )

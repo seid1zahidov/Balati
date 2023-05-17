@@ -41,7 +41,9 @@
         display: flex;
         flex-wrap: wrap;
         gap: 44px;
-
+        .decaration{
+            text-decoration: none;
+        }
         .galleryItem {
             border: 1px solid #353F39;
             padding: 12px;

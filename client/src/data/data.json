@@ -12,10 +12,10 @@
             {
                 "id": 2,
                 "name": "Balqabaqlı balatı çörəyi",
-                "picture": "/media/moank.png",
+                "picture": "/media/productss1.svg",
                 "money": 3,
                 "category": "UN MEMULATLARI",
-                "details": "lorem impsum"
+                "details": "Üzdən sadə çörək kimi görünsə də, bu çörəyin olduqca çox detalları var. Bu çöryin əsas məsələsi tək mayasız olmasında deyil. Biz hər bir çörəyi sıfırdan dizayn edirik. Elə dizayn edirik ki, o, düzgün həzm olunsun. Bununla yanaşı olduqca dadlıdır. "
             },
             {
                 "id": 3,
@@ -23,7 +23,7 @@
                 "picture": "/media/sergio.png",
                 "money": 10,
                 "category": "ÇÖRƏKLƏR",
-                "details": "lorem impsum"
+                "details": "Üzdən sadə çörək kimi görünsə də, bu çörəyin olduqca çox detalları var. Bu çöryin əsas məsələsi tək mayasız olmasında deyil. Biz hər bir çörəyi sıfırdan dizayn edirik. Elə dizayn edirik ki, o, düzgün həzm olunsun. Bununla yanaşı olduqca dadlıdır. "
             },
             {
                 "id": 4,
@@ -31,7 +31,7 @@
                 "picture": "/media/Screen3.png",
                 "money": 10,
                 "category": "UN MEMULATLARI",
-                "details": "lorem impsum"
+                "details": "Üzdən sadə çörək kimi görünsə də, bu çörəyin olduqca çox detalları var. Bu çöryin əsas məsələsi tək mayasız olmasında deyil. Biz hər bir çörəyi sıfırdan dizayn edirik. Elə dizayn edirik ki, o, düzgün həzm olunsun. Bununla yanaşı olduqca dadlıdır. "
             },
             {
                 "id": 5,
@@ -39,7 +39,7 @@
                 "picture": "/media/Screen2.png",
                 "money": 10,
                 "category": "ÇÖRƏKLƏR",
-                "details": "lorem impsum"
+                "details": "Üzdən sadə çörək kimi görünsə də, bu çörəyin olduqca çox detalları var. Bu çöryin əsas məsələsi tək mayasız olmasında deyil. Biz hər bir çörəyi sıfırdan dizayn edirik. Elə dizayn edirik ki, o, düzgün həzm olunsun. Bununla yanaşı olduqca dadlıdır. "
             },
             {
                 "id": 6,
@@ -55,7 +55,7 @@
                 "picture": "/media/Screen4.png",
                 "money": 10,
                 "category": "ÇÖRƏKLƏR",
-                "details": "lorem impsum"
+                "details": "Üzdən sadə çörək kimi görünsə də, bu çörəyin olduqca çox detalları var. Bu çöryin əsas məsələsi tək mayasız olmasında deyil. Biz hər bir çörəyi sıfırdan dizayn edirik. Elə dizayn edirik ki, o, düzgün həzm olunsun. Bununla yanaşı olduqca dadlıdır. "
             }
         ]
     }
