@@ -4,6 +4,7 @@ import Home from "./views/Home/Home";
 import Footer from "./components/layout/footer/Footer";
 import Product from "./views/Product/Product";
 import SingleProduct from "./views/ProductsDetails/Index"
+import Error from "./components/core/error/Error";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/product' element={<Product />} />
           <Route path='/product/:id' element={<SingleProduct />} />
+          <Route path='*' element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>

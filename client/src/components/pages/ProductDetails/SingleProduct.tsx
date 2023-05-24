@@ -1,8 +1,8 @@
 import "./Products.scss"
 import { useParams } from "react-router-dom"
 import data from "../../../data/data.json"
+import text from "./text.json"
 const SingleProduct = () => {
-
 
   const productId: any = useParams();
 
@@ -21,7 +21,11 @@ const SingleProduct = () => {
             </ul>
           </div>
           <div className="right">
-          Məhsullara geri qayıt
+            <div className="text">
+            <img src={text["right-line"]} alt="" />
+
+            <span>Məhsullara geri qayıt</span>
+            </div>
           <img src={product?.picture} alt={product?.picture} />
           </div>
         </div>

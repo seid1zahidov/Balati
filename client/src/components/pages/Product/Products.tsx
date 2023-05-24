@@ -16,13 +16,10 @@ export interface Card {
 const Products = () => {
   const [datas, setData] = useState<any>([]);
   const [collection, setCollection] = useState<any>([]);
-
   useEffect(() => {
     setData(data.cardData.card);
     setCollection(Array.from(new Set(data.cardData.card.map((item) => item.category))));
-
   }, [])
-
   const gallery_filter = (category: string) => {
     const filterData = data.cardData.card.filter((item) => item.category === category);
     setData(filterData);
@@ -63,5 +60,4 @@ const Products = () => {
     </section>
   )
 }
-
 export default Products

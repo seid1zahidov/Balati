@@ -5,9 +5,11 @@
         .row {
             display: flex;
             margin-top: 102px;
+
             .left {
                 width: 50%;
                 border-right: 2px solid rgba(226, 223, 218, 1);
+
                 ul {
                     list-style: none;
 
@@ -42,11 +44,30 @@
             .right {
                 width: 50%;
                 text-align: right;
-                img{
+                img {
                     width: 90%;
                     height: 100%;
                     object-fit: cover;
                 }
+
+                .text {
+                    margin-bottom: 10px;
+                    display: flex;
+                    justify-content: right;
+                    align-items: center;
+                    gap: 12px;
+                    img{
+                        width: 5%;
+                    }
+                    span {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0.1em;
+                        text-align: left;
+                    }
+                }
+
             }
         }
     }
