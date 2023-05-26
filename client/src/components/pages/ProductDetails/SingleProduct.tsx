@@ -13,20 +13,36 @@ const SingleProduct = () => {
       <div className="container">
         <div className="row">
           <div className="left">
-            <ul>
-              <li className="category">{product?.category}</li>
-              <li className="name">{product?.name.toUpperCase()}</li>
-              <li className="details">{product?.details}</li>
-              {/* <li className="money">{product?.money}</li> */}
-            </ul>
+            <div className="left-container">
+              <ul>
+                <li className="category">{product?.category}</li>
+                <li className="name">{product?.name.toUpperCase()}</li>
+                <li className="details">{product?.details}</li>
+                {/* <li className="money">{product?.money}</li> */}
+              </ul>
+            </div>
+
           </div>
           <div className="right">
-            <div className="text">
-            <img src={text["right-line"]} alt="" />
-
-            <span>Məhsullara geri qayıt</span>
+            <div className="containers">
+              <div className="text">
+                <img src={text["right-line"]} alt="" />
+                <span>Məhsullara geri qayıt</span>
+              </div>
+              <div className="image">
+                <img src={product?.picture} alt={product?.picture} />
+              </div>
+              <div className="product">
+                <div className="containerr">
+                  <div className="price">
+                    <p>Qiymət:  <b>{product?.money}man</b></p>
+                  </div>
+                </div>
+              </div>
+              <div className="descirption">
+                {product?.description}
+              </div>
             </div>
-          <img src={product?.picture} alt={product?.picture} />
           </div>
         </div>
       </div>
