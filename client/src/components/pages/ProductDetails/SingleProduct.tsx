@@ -2,11 +2,21 @@ import "./Products.scss"
 import { useParams } from "react-router-dom"
 import data from "../../../data/data.json"
 import text from "./text.json"
+import { useDispatch } from "react-redux"
+import { addToCart } from "../../../store/cardStore"
 const SingleProduct = () => {
 
   const productId: any = useParams();
 
   const product = data.cardData.card.find(product => product.id == productId.id)
+
+
+  const dispatch = useDispatch()
+
+
+  const handleAddToCart = (product: any) => {
+    dispatch(addToCart(product));
+  };
 
   return (
     <section id="ProductsDetails">
@@ -21,7 +31,10 @@ const SingleProduct = () => {
                 {/* <li className="money">{product?.money}</li> */}
               </ul>
             </div>
-            
+            <div className="addTocart">
+              <button onClick={(event: any) => handleAddToCart(product)}>Səbətə əlavə et</button>
+            </div>
+
           </div>
           <div className="right">
             <div className="containers">
@@ -42,6 +55,9 @@ const SingleProduct = () => {
               <div className="descirption">
                 {product?.description}
               </div>
+
+
+
             </div>
           </div>
         </div>

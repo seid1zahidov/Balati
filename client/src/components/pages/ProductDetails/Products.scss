@@ -49,6 +49,28 @@
                     }
                 }
 
+                .addTocart {
+                    margin-top: 48px;
+
+                    button {
+                        font-family: 'Source Sans Pro';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 32px;
+                        text-align: center;
+                        letter-spacing: 0.1em;
+                        background-color: #353F39;
+                        border: 1px solid #353F39;
+                        position: absolute;
+                        width: 186px;
+                        height: 48px;
+                        left: 120px;
+                        top: 548px;
+                        color: #fff;
+                    }
+                }
+
             }
 
             .right {
@@ -125,11 +147,11 @@
                         padding-bottom: 20px;
                         display: flex;
                         text-align: left;
-                        font-style:normal;
+                        font-style: normal;
                         font-weight: 400;
                         font-size: 14px;
                         line-height: 18px;
-                        
+
                     }
                 }
 

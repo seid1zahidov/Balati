@@ -21,9 +21,11 @@ const Navbar = () => {
               <li>ƏLAQƏ</li>
             </ul>
           </div>
-          <div className="basket">
-            <img src={text.BasketLogo} alt={text.BasketLogo} />
-          </div>
+          <Link to={"/card-details"}>
+            <div className="basket">
+              <img src={text.BasketLogo} alt={text.BasketLogo} />
+            </div>
+          </Link>
         </div>
       </div>
     </header>
