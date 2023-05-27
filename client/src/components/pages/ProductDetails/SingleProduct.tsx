@@ -21,7 +21,7 @@ const SingleProduct = () => {
                 {/* <li className="money">{product?.money}</li> */}
               </ul>
             </div>
-
+            
           </div>
           <div className="right">
             <div className="containers">
