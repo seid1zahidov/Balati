@@ -4,24 +4,24 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { addToCart, clearCart, decreaseCart, getTotals, removeFromCart } from "../../../store/cardStore";
 const CardDetails = () => {
-    const cart = useSelector((state :any) => state.cart);
+    const cart = useSelector((state: any) => state.cart);
     const dispatch = useDispatch();
-  
+
     useEffect(() => {
-      dispatch(getTotals());
+        dispatch(getTotals());
     }, [cart, dispatch]);
-  
+
     const handleAddToCart = (product: any) => {
-      dispatch(addToCart(product));
+        dispatch(addToCart(product));
     };
-    const handleDecreaseCart = (product : any) => {
-      dispatch(decreaseCart(product));
+    const handleDecreaseCart = (product: any) => {
+        dispatch(decreaseCart(product));
     };
-    const handleRemoveFromCart = (product :any) => {
-      dispatch(removeFromCart(product));
+    const handleRemoveFromCart = (product: any) => {
+        dispatch(removeFromCart(product));
     };
     const handleClearCart = () => {
-      dispatch(clearCart());
+        dispatch(clearCart());
     };
     return (
         <div className="cart-container">
